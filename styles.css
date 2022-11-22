@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --LightGray: hsl(212, 45%, 89%);
+    --GrayishBlue: hsl(220, 15%, 55%);
+    --DarkBlue: hsl(218, 44%, 22%);
+}    
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 15px;
+
+    font-family: 'Outfit', sans-serif;
+    user-select: none;
+}
+
+body {
+    background-color: var(--LightGray);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    gap: 1rem;
+    
+}
+
+.Container {
+    background-color: var(--White);
+    width: 320px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    gap: 1rem;
+}
+
+img {
+    width: 290px;
+    height: 310px;
+    padding-top: 0;
+    border-radius: 1rem;
+}
+
+h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px; 
+    justify-content: center;
+    text-align: center;
+    padding: 0 2rem; 
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    justify-content: center;
+    text-align: center;
+    padding: 0 3rem;
+    opacity: 40%;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
